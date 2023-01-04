@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header and Navigation styles */
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    padding: 18px 35px;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    margin-bottom: 130px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+font-weight: 800;
+font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* Banner styles */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+    
+}
+.banner-hi{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #474747;
+    margin-bottom: 5px;
+
+    }
+.banner-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+.banner-paragraph{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #757575;
+    margin-bottom:30px ;
+}
+
+/* Main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About section starts */
+
+.about{
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 131px 156px;
+    margin-bottom: 130px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    color: #181818;
+}
+.section-paragraph{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #757575;
+}
